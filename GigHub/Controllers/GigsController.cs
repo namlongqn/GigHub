@@ -2,7 +2,6 @@
 using System.Data.Entity;
 using System.Linq;
 using System.Web.Mvc;
-using System.Web.UI.WebControls;
 using GigHub.Models;
 using GigHub.ViewModels;
 using Microsoft.AspNet.Identity;
@@ -47,8 +46,7 @@ namespace GigHub.Controllers
                 ShowActions = User.Identity.IsAuthenticated,
                 Heading = "Gigs I'm Attending"
             };
-            return View("Gigs", viewModel);
-            
+            return View("Gigs", viewModel);            
         }
 
         [Authorize]
