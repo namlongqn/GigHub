@@ -88,8 +88,8 @@ h6,
     height: 100%;
 }
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     border-radius: 9px;
 }
 
@@ -121,7 +121,6 @@ h6,
         padding: 6px 12px;
     }
 .gigs > li .date {
-
     background: red;
     color: white;
     text-align: center;
